@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+table{
+    border: 1px solid red;
+}
+
+.coluna1, .coluna2{
+    border-right: 1px solid red;
+}

@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #1d539e 0, #1d539e 50%, white 40%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#cabecalho{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 320px;
+    align-items: center;
+    cursor: pointer;
+}
+
+thead, tbody, tfoot{
+    display: inline-table;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    color: #828799;
+}
+
+thead{
+    flex-basis: 20%;
+    border-radius: 10px 10px 0px 0px;
+    color: black;
+}
+
+.descricao > td{
+    padding: 20px;
+    border-bottom: ridge;
+}
+
+tbody{
+    flex-basis: 65%;
+}
+
+tfoot{
+    flex-basis: 15%;
+}
+
+th, ul{
+    padding-left: 20px;
+    /* color: black; */
+}
+
+li{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+
+.beneficios{
+    vertical-align: baseline;
+    height: 70%;
+}
+
+button{
+    flex-basis: 100%;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #1d539e ;
+    color: #1d539e;
+    font-weight: bold;
+}
+
+.preco > th{
+    color: black;
+}
+
+h1, p{
+    margin: 0;
+}
+
+p{
+    font-size: x-small;
+}
+
+strong{
+    font-size: xx-large;
+}
+
+#popular{
+    padding-top: 27px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    background-color: #1d539e;
+    color: white;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+    font-size: small;
+    visibility: hidden;
+}
